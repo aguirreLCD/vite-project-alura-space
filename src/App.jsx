@@ -1,3 +1,5 @@
+import "./index.css";
+
 import Banner from "./components/Banner/index.jsx";
 import Header from "./components/Header/index.jsx";
 

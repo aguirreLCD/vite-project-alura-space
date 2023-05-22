@@ -2,32 +2,28 @@ import "./Header.css";
 
 import logoAlura from "../../assets/logo.png";
 import menu from "../../assets/Menu.svg";
-import search from "../../assets/search.png";
+import Menu from "../Menu";
 
 function Header() {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="#" target="_blank">
-              <img src={menu} alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <img src={logoAlura} alt="" />
-            </a>
-          </li>
+    <header className="header">
+      <div className="header-container">
+        <img src={menu} alt="Menu Icon" className="menu-icon" />
 
-          <li>
-            <a href="#" target="_blank">
-              <input type="search" placeholder="What are you looking for?" />
-              <img src={search} alt="" />
-            </a>
-          </li>
-        </ul>
-      </nav>
+        <img src={logoAlura} alt="Alura Space Logo" />
+      </div>
+
+      {/* <div className="show-menu">
+        <Menu />
+      </div> */}
+
+      <div className="header-search">
+        <input
+          type="search"
+          placeholder="What are you looking for?"
+          className="header-search-input"
+        />
+      </div>
     </header>
   );
 }
