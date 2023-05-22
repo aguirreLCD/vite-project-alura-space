@@ -16,7 +16,6 @@
 
 .menu-list__link {
   text-decoration: none;
-
   color: var(--gray);
   font-size: 1rem;
 }
@@ -26,4 +25,12 @@
   width: 25px;
   height: 25px;
   cursor: pointer;
+}
+
+/* TABLETS */
+@media screen and (min-width: 744px) {
+  .menu {
+    margin: 0;
+    padding: 0;
+  }
 }

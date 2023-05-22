@@ -8,8 +8,11 @@ function App() {
   return (
     <>
       <Header />
-      <Menu />
-      <Banner />
+
+      <div className="space-banner">
+        <Menu />
+        <Banner />
+      </div>
     </>
   );
 }

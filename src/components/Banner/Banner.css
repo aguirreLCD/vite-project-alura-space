@@ -1,6 +1,41 @@
 .banner {
-  margin: 1.5rem;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 21vh;
+  width: 80%;
+  position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(../../assets/Banner.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.banner__title {
+  font-size: 1.3rem;
+  color: var(--white);
+  text-align: center;
+}
+
+/* TABLETS */
+@media screen and (min-width: 744px) {
+  .banner {
+    width: 50vw;
+    height: 29vw;
+    margin: 1rem;
+  }
+
+  .banner__title {
+    font-size: 1.1rem;
+  }
 }

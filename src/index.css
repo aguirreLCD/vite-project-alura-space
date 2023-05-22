@@ -23,7 +23,7 @@
   --gray: #94a3b8;
   --light-gray: #d9d9d9;
   --dark-blue: #04244f;
-  --white: #ffffff;
+  --white: #;
 }
 
 body {
@@ -33,4 +33,16 @@ body {
   min-height: 100vh;
   background: var(--bg-gradient);
   box-sizing: border-box;
+}
+.space-banner {
+  padding-top: 0.5rem;
+}
+
+/* TABLETS */
+@media screen and (min-width: 744px) {
+  .space-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
 }

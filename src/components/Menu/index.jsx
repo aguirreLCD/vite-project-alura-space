@@ -9,7 +9,7 @@ import surpriseMe from "../../assets/icons/surprise-me-inactive.svg";
 function Menu() {
   return (
     <>
-      <nav>
+      <nav className="menu">
         <ul className="menu-list">
           <li className="menu-list__item">
             <img src={homeIcon} alt="" />

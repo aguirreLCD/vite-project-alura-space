@@ -1,12 +1,10 @@
 import "./Banner.css";
 
-import banner from "../../assets/Banner.svg";
-
 function Banner() {
   return (
-    <div className="banner">
-      <img src={banner} alt="Alura Space Banner" />
-    </div>
+    <section className="banner">
+      <h1 className="banner__title">The most complete space photo gallery!</h1>
+    </section>
   );
 }
 
