@@ -2,7 +2,6 @@ import "./Header.css";
 
 import logoAlura from "../../assets/logo.png";
 import menu from "../../assets/Menu.svg";
-import Menu from "../Menu";
 
 function Header() {
   return (
@@ -12,10 +11,6 @@ function Header() {
 
         <img src={logoAlura} alt="Alura Space Logo" />
       </div>
-
-      {/* <div className="show-menu">
-        <Menu />
-      </div> */}
 
       <div className="header-search">
         <input

@@ -1,12 +1,9 @@
-.header {
-  position: relative;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0.5rem;
+  flex-grow: 1;
 }
 
 .header-search {
@@ -36,24 +33,24 @@
   background-size: contain;
 }
 
-/* .show-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  width: 50vw;
-} */
-
 /* TABLETS */
 @media screen and (min-width: 744px) {
   .header {
-    display: block;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-container {
+    justify-content: flex-start;
+  }
+
+  .header-search {
+    width: 100%;
+    justify-content: center;
   }
 
   .menu-icon {
     display: none;
-  }
-
-  .show-menu {
-    display: flex;
   }
 }

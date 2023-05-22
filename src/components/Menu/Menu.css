@@ -1,0 +1,29 @@
+.menu-list {
+  list-style-type: none;
+  padding-left: 0.5rem;
+  margin: 0;
+  height: 276px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-list__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.menu-list__link {
+  text-decoration: none;
+
+  color: var(--gray);
+  font-size: 1rem;
+}
+
+.menu-list__item img {
+  margin-right: 0.5rem;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
