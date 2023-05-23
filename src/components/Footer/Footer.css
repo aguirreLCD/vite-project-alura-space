@@ -1,0 +1,41 @@
+.footer {
+  margin: 0;
+  background: var(--dark-blue-footer);
+  color: var(--main-color);
+  padding: 0 0.75em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.footer-list {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.footer-item {
+  list-style-type: none;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.footer ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-info {
+  margin: 0;
+}
+
+/* TABLETS */
+@media screen and (min-width: 744px) {
+  .footer {
+    flex-direction: row;
+  }
+}
