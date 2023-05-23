@@ -55,3 +55,14 @@
     display: none;
   }
 }
+
+/* DESKTOP */
+@media screen and (min-width: 1000px) {
+  .header-container {
+    justify-content: flex-start;
+  }
+
+  .header-search {
+    width: 60%;
+  }
+}
