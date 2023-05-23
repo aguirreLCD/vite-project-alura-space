@@ -1,27 +1,35 @@
 .tags-container {
-  width: 65vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   color: var(--main-color);
-  font-size: 16px;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  margin: 0 4rem;
+  padding: 0;
+  width: 65vw;
 }
 
 .tags-info {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .tags-list {
   list-style-type: none;
-  width: 380px;
-  padding: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .tags-item {
   background-color: var(--tag-color);
-  padding: 6px 10px;
   border-radius: 8px;
   cursor: pointer;
+
+  margin: 0.5rem 0.75rem;
+  padding: 0.5rem;
 }
