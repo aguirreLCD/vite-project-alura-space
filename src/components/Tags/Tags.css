@@ -1,0 +1,27 @@
+.tags-container {
+  width: 65vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--main-color);
+  font-size: 16px;
+}
+
+.tags-info {
+  font-size: 1.25rem;
+}
+
+.tags-list {
+  list-style-type: none;
+  width: 380px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tags-item {
+  background-color: var(--tag-color);
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
