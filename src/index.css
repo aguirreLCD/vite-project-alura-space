@@ -1,4 +1,4 @@
-@import-normalize;
+/* @import-normalize; */
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -49,11 +49,22 @@ body {
   padding-top: 0.5rem;
 }
 
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 /* TABLETS */
 @media screen and (min-width: 744px) {
   .space-banner {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+  }
+
+  .gallery {
+    margin-left: 20%;
+    margin-top: 1rem;
   }
 }

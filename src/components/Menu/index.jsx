@@ -8,46 +8,44 @@ import surpriseMe from "../../assets/icons/surprise-me-inactive.svg";
 
 function Menu() {
   return (
-    <>
-      <nav className="menu">
-        <ul className="menu-list">
-          <li className="menu-list__item">
-            <img src={homeIcon} alt="" />
-            <a href="#" className="menu-list__link">
-              Home
-            </a>
-          </li>
+    <nav className="menu">
+      <ul className="menu-list">
+        <li className="menu-list__item">
+          <img src={homeIcon} alt="" />
+          <a href="#" className="menu-list__link">
+            Home
+          </a>
+        </li>
 
-          <li className="menu-list__item">
-            <img src={mostViewed} alt="" />
-            <a href="#" className="menu-list__link">
-              Most viewed
-            </a>
-          </li>
+        <li className="menu-list__item">
+          <img src={mostViewed} alt="" />
+          <a href="#" className="menu-list__link">
+            Most viewed
+          </a>
+        </li>
 
-          <li className="menu-list__item">
-            <img src={mostLiked} alt="" />
-            <a href="#" className="menu-list__link">
-              Most liked
-            </a>
-          </li>
+        <li className="menu-list__item">
+          <img src={mostLiked} alt="" />
+          <a href="#" className="menu-list__link">
+            Most liked
+          </a>
+        </li>
 
-          <li className="menu-list__item">
-            <img src={news} alt="" />
-            <a href="#" className="menu-list__link">
-              New images
-            </a>
-          </li>
+        <li className="menu-list__item">
+          <img src={news} alt="" />
+          <a href="#" className="menu-list__link">
+            New images
+          </a>
+        </li>
 
-          <li className="menu-list__item">
-            <img src={surpriseMe} alt="" />
-            <a href="#" className="menu-list__link">
-              Surprise-me
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </>
+        <li className="menu-list__item">
+          <img src={surpriseMe} alt="" />
+          <a href="#" className="menu-list__link">
+            Surprise-me
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 }
 

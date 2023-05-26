@@ -1,0 +1,10 @@
+/* ul photo gallery list */
+.cards {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
