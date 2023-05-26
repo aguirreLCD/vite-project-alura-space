@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/assets/images/trending/photo-1.png",
+    "alt": "Galaxies",
+    "id": "1"
+  },
+  {
+    "path": "/assets/images/trending/photo-2.png",
+    "alt": "Moon",
+    "id": "2"
+  },
+  {
+    "path": "/assets/images/trending/photo-3.png",
+    "alt": "Earth",
+    "id": "3"
+  },
+  {
+    "path": "/assets/images/trending/photo-4.png",
+    "alt": "Clouds",
+    "id": "4"
+  },
+  {
+    "path": "/assets/images/trending/photo-5.png",
+    "alt": "Asteroid",
+    "id": "5"
+  }
+]

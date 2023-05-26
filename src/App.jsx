@@ -5,18 +5,16 @@ import Menu from "./components/Menu/index.jsx";
 import Banner from "./components/Banner/index.jsx";
 import PhotoGallery from "./components/PhotoGallery/index.jsx";
 import Footer from "./components/Footer/index.jsx";
+import Trending from "./components/Trending";
 
 function App() {
   return (
     <>
       <Header />
-      <div className="space-banner">
-        <Menu />
-        <Banner />
-      </div>
-      <div className="gallery">
-        <PhotoGallery />
-      </div>
+      <Menu />
+      <Banner />
+      <PhotoGallery />
+      <Trending />
       <Footer />
     </>
   );

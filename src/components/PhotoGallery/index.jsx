@@ -6,9 +6,8 @@ import photos from "./photos.json";
 function PhotoGallery() {
   return (
     <section className="photo-gallery">
-      <h2 className="photo-gallery-title">Photo Gallery</h2>
-
       <Tags />
+      <h2 className="photo-gallery-title">Photo Gallery</h2>
       <Cards itens={photos} />
     </section>
   );

@@ -1,3 +1,7 @@
+.menu {
+  display: none;
+}
+
 .menu-list {
   list-style-type: none;
   padding-left: 0.5rem;
@@ -30,7 +34,6 @@
 /* TABLETS */
 @media screen and (min-width: 744px) {
   .menu {
-    margin: 0;
-    padding: 0;
+    display: block;
   }
 }

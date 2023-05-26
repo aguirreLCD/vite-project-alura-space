@@ -44,27 +44,3 @@ body {
   background: var(--bg-gradient);
   box-sizing: border-box;
 }
-
-.space-banner {
-  padding-top: 0.5rem;
-}
-
-.gallery {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-/* TABLETS */
-@media screen and (min-width: 744px) {
-  .space-banner {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-  }
-
-  .gallery {
-    margin-left: 20%;
-    margin-top: 1rem;
-  }
-}
