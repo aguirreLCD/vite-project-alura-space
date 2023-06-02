@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../Button/index.jsx";
 import "./Trending.css";
 import trendingPhotos from "./trending.json";
 

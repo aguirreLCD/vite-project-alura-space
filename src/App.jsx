@@ -8,12 +8,14 @@ import Footer from "./components/Footer/index.jsx";
 import Trending from "./components/Trending/index.jsx";
 
 function App() {
+  // const [open, setOpen] = useState(false);
+
   return (
     <>
       <Header />
+
       <section className="menu-banner">
         <Menu />
-
         <Banner />
       </section>
 
