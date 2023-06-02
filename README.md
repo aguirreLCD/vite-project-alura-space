@@ -33,5 +33,25 @@ In Figma:
 - set color variables in index.css;
 ```
 
-Start to create first page:
+Components created:
 
+Header;
+Bannner;
+Footer;
+PhotoGallery;
+Tags;
+Card;
+Cards;
+Trending;
+
+Backlog Features:
+Menu - Navbar;
+Favorite;
+Show photo info;
+Search image;
+Filter / Search by tag;
+Most viewed page;
+Most liked page;
+New images page;
+Surprise-me page;
+Show More button;

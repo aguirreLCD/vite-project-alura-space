@@ -26,7 +26,7 @@ const Footer = () => {
       </ul>
 
       <section className="footer-info">
-        <p>Developed by Alura</p>
+        <p>Designed by Alura. Developed by Lili.</p>
       </section>
     </footer>
   );
