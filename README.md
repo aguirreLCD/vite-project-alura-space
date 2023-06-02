@@ -1,4 +1,6 @@
-# How to start to create the project:
+## Hi there 👋
+
+# Get started:
 
 **Alura Space** is a project bootstrapped with create vite@latest:
 
@@ -14,26 +16,42 @@ Select:
 - variant: Javascript
 ```
 
-Then run the development server:
+Installation:
 
-```
-- npm install
-- npm run dev
-```
+`npm install`
 
-Open http://localhost:5173 with your browser to see the application running.
+To Start Server:
 
-We start editing the page by modifying src/App.jsx, deleting all the content and the App.css file.
+`npm run dev`
 
-In Figma:
+To Visit App:
 
-```
-- download images;
-- set fonts;
-- set color variables in index.css;
-```
+`localhost:5173/`
 
-## Components created:
+Open `http://localhost:5173` with your browser to see the application running.
+
+## About the Project:
+
+## Technologies Used:
+
+- Vite.js;
+- React.js;
+- HTML, CSS, Javascript;
+- Git - Github;
+- Trello;
+- Vercel;
+
+## Learning topics:
+
+Create an app with vite starter;
+Organize folders and files;
+Install and use additional libs;
+Import css files;
+Import images from static files;
+Import images from json file;
+Control states and use props on components;
+
+## Components:
 
 - [x] Header;
 - [x] Bannner;
@@ -47,7 +65,9 @@ In Figma:
 
 ### Started using Trello for project management.
 
-## Backlog Features:
+## Status:
+
+## Backlog - Features:
 
 - [x] Apply method to Filter by tag;
 - [ ] Show/hide Menu - Navbar;
