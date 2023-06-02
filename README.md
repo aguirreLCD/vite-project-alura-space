@@ -56,3 +56,5 @@ In Figma:
 - New images page;
 - Surprise-me page;
 - Show More button;
+
+### Deployment: ([Initial Project](https://vite-project-alura-space.vercel.app/))
