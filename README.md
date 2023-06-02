@@ -43,20 +43,21 @@ In Figma:
 - Card;
 - Cards;
 - Trending;
+- Button;
 
 ### Started using Trello for project management.
 
 ## Backlog Features:
 
-- Show/hide Menu - Navbar;
-- Favorite button;
-- Show photo info;
-- Search image;
-- Filter / Search by tag;
-- Create a Most viewed page;
-- Create a Most liked page;
-- Create a New images page;
-- Create a Surprise-me page;
-- Show More button;
+- [x] Apply method to Filter by tag;
+- [ ] Show/hide Menu - Navbar;
+- [ ] Apply method on Favorite button;
+- [ ] Apply method on Show photo info;
+- [ ] Apply method on Search image;
+- [ ] Create a Most viewed page;
+- [ ] Create a Most liked page;
+- [ ] Create a New images page;
+- [ ] Create a Surprise- [ ]me page;
+- [ ] Apply method on Show More button;
 
 ### Deployment: ([Initial Project](https://vite-project-alura-space.vercel.app/))

@@ -1,3 +1,4 @@
+import Button from "../Button";
 import "./Trending.css";
 import trendingPhotos from "./trending.json";
 
@@ -16,7 +17,7 @@ export default function Trending() {
           })}
         </ul>
       </div>
-      <button className="trending-btn">Show more</button>
+      <Button>Show More</Button>
     </aside>
   );
 }
