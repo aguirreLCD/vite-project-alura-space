@@ -26,33 +26,12 @@
   color: var(--white);
   text-align: center;
   padding: 2rem;
+  overflow-wrap: break-word;
 }
 
 /* TABLETS */
 @media screen and (min-width: 744px) {
-  .banner {
-    width: 50vw;
-    height: 29vw;
-    margin: 1rem;
-  }
-
   .banner__title {
     font-size: 1.1rem;
-  }
-}
-
-/* DESKTOP */
-@media screen and (min-width: 1000px) {
-  .banner {
-    width: 80%;
-    height: 20vw;
-    margin: 1rem;
-    justify-content: flex-start;
-  }
-  .banner__title {
-    font-size: 2.1rem;
-    padding: 0 27rem 0 0.75rem;
-    margin: 0;
-    text-align: left;
   }
 }

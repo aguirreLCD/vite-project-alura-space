@@ -34,6 +34,6 @@
 /* TABLETS */
 @media screen and (min-width: 744px) {
   .menu {
-    display: flex;
+    display: block;
   }
 }

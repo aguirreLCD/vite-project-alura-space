@@ -11,8 +11,12 @@ function App() {
   return (
     <>
       <Header />
-      <Menu />
-      <Banner />
+      <section className="menu-banner">
+        <Menu />
+
+        <Banner />
+      </section>
+
       <PhotoGallery />
       <Trending />
       <Footer />
