@@ -3,45 +3,40 @@
   font-size: 1rem;
 }
 
-.tags-info {
-  margin: 0;
-  padding: 0;
-}
-
 .tags-info-title {
   font-size: 1rem;
-  margin: 0;
-  padding: 0;
 }
 
 .tags-list {
   list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: block;
   margin: 0;
   padding: 0;
 }
 
 .tags-item {
+  display: inline-block;
   background-color: var(--tag-color);
   border-radius: 8px;
   cursor: pointer;
   padding: 0.5rem;
   margin-left: 0.3rem;
+  margin-top: 0.3rem;
 }
 
 /* TABLETS */
 @media screen and (min-width: 744px) {
   .tags-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
+
   .tags-list {
-    padding: 1rem;
+    padding: 0 1rem;
   }
   .tags-item {
-    padding: 1rem;
+    padding: 0 1rem;
   }
 }

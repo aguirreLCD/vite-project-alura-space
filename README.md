@@ -35,15 +35,15 @@ In Figma:
 
 ## Components created:
 
-- Header;
-- Bannner;
-- Footer;
-- PhotoGallery;
-- Tags;
-- Card;
-- Cards;
-- Trending;
-- Button;
+- [x] Header;
+- [x] Bannner;
+- [x] Footer;
+- [x] PhotoGallery;
+- [x] Tags;
+- [x] Card;
+- [x] Cards;
+- [x] Trending;
+- [x] Button;
 
 ### Started using Trello for project management.
 
