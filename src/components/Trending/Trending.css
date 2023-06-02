@@ -1,10 +1,10 @@
 .trending {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-
   color: var(--purple);
   font-size: 1rem;
+
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .trending-title {
@@ -16,17 +16,17 @@
 }
 
 .trending-container {
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .trending-images {
-  padding: 0;
-  margin: 0;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .trending-images img {
@@ -69,7 +69,24 @@
   transition: 0.1s;
 }
 
-/* display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; */
+/* TABLETS */
+@media screen and (min-width: 744px) {
+  .trending-container {
+    margin: 0 5rem;
+  }
+
+  .trending-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trending-images img {
+    width: 250px;
+  }
+
+  .trending-images li {
+    padding: 0.5rem;
+  }
+}
